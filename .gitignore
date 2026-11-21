@@ -1,0 +1,30 @@
+# Build files
+build/
+cmake-build-*/
+CMakeFiles/
+
+# Compiled binaries
+*.o
+*.a
+*.so
+*.out
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Simulator outputs and traces
+*.trace
+*.traceg
+*.tracez
+hw_run/
+sim_run/
+
+# Generated results
+results/*
+!results/.gitkeep
+
+# Editors
+.vscode/
+.idea/
